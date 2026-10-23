@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+*.log
+
+# TLS certificates / private keys
+certificates/*.key
+certificates/*.pem
+certificates/*.crt
+
+# Sensitive security data
+security/users.json
+security/shared_keys.json
